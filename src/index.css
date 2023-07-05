@@ -3,3 +3,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button{
+  @apply rounded px-3 bg-sky-700 text-gray-100  m-2 hover:bg-sky-500
+}
+.input {
+  @apply text-black normal-case text-left px-4 py-1 rounded-l border-none outline-none mt-4 mb-3 bg-blue-200
+}
+.btn {
+  @apply rounded-r px-2 py-1 outline-none border-none pl-1
+}
+.h1{
+  @apply text-5xl text-white mb-2 font-fontz mt-2 text-gray-300
+}
+.img {
+  @apply rounded-lg w-60 h-40 gap-2 object-cover mb-4
+}
+.loader {
+  @apply bg-gradient-to-r from-purple-500 to-blue-700 rounded
+}
+.h2 {
+  @apply capitalize text-3xl text-gray-400 mb-3
+}
+.div-img {
+  @apply flex justify-center flex-wrap mt-4
+}
